@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# HackSphere 2025 Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![HackSphere 2025](https://via.placeholder.com/1200x630/0ea5e9/FFFFFF?text=HackSphere+2025)
 
-## Available Scripts
+A beautiful and responsive landing page for the fictional global hackathon event, HackSphere 2025. This project showcases a modern UI design built with React and Tailwind CSS.
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- **Responsive Design**: Looks great on all devices from mobile to desktop
+- **Modern UI**: Clean design with soft shadows, rounded corners, and proper spacing
+- **Smooth Scrolling**: Enhanced user experience with smooth scrolling navigation
+- **Animations**: Subtle animations to enhance the user experience
+- **Mobile Navigation**: Responsive hamburger menu for mobile devices
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📋 Sections
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Hero Section**: Eye-catching introduction with event details
+- **About Section**: Brief description of the hackathon
+- **FAQ Section**: Common questions answered
+- **Schedule Section**: Timeline of the event with a visual timeline
+- **Partners Section**: Showcase of event sponsors and partners
+- **Registration Section**: Call-to-action for registration
+- **Footer**: Copyright information and social links
 
-### `npm test`
+## 🛠️ Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: Frontend library for building user interfaces
+- **Tailwind CSS**: Utility-first CSS framework
+- **Google Fonts**: Custom typography with Inter and Montserrat fonts
+- **CSS Animations**: Custom animations for enhanced user experience
 
-### `npm run build`
+## 🏁 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (v14 or later)
+- npm or yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/hacksphere-2025.git
+   cd hacksphere-2025
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install dependencies
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Open your browser and visit [http://localhost:3000](http://localhost:3000)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📦 Build for Production
 
-## Learn More
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This will create an optimized production build in the `build` folder.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎨 Customization
 
-### Code Splitting
+- **Colors**: Edit the color scheme in `tailwind.config.js`
+- **Fonts**: Change the typography in `tailwind.config.js` and update the Google Fonts import in `index.css`
+- **Content**: Update the event details and sections in `App.js`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📄 License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🙏 Acknowledgements
 
-### Making a Progressive Web App
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Create React App](https://create-react-app.dev/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2025 HackSphere. All rights reserved.
